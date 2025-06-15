@@ -1,0 +1,4 @@
+### GET request to get single book
+GET http://localhost:8080/api/books/1
+
+###
