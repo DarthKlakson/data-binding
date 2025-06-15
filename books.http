@@ -1,4 +1,32 @@
 ### GET request to get single book
 GET http://localhost:8080/api/books/1
 
+### POST Create new book
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+
+  "isbn": "1234567",
+  "title": "Testowty tytul z api",
+  "author": "Testowy api",
+  "publisher": "Publisher",
+  "type": "test"
+}
+### UPDATE existing book
+PUT http://localhost:8080/api/books/2
+Content-Type: application/json
+
+{
+
+  "isbn": "1234567",
+  "title": "Testowty tytul z api",
+  "author": "Testowy api Update",
+  "publisher": "Publisher Update",
+  "type": "test"
+}
+
+### DELETE Remove book
+DELETE http://localhost:8080/api/books/2
+
 ###
