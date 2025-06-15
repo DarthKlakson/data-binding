@@ -1,0 +1,27 @@
+### GET request to get single publisher
+GET http://localhost:8080/api/publishers/1
+
+### POST create new publisher
+POST http://localhost:8080/api/publishers
+Content-Type: application/json
+
+{
+  "name": "Testowy z api",
+  "city": "test city z api",
+  "zipCode": "12-1212",
+  "address": "test address z api"
+}
+
+### UPDATE existing publisher
+PUT http://localhost:8080/api/publishers/2
+Content-Type: application/json
+
+{
+  "name": "Testowy update!",
+  "city": "test update",
+  "zipCode": "12-1212",
+  "address": "test address z api"
+}
+
+### DELETE publisher
+DELETE http://localhost:8080/api/publishers/2

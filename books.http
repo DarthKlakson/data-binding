@@ -29,4 +29,3 @@ Content-Type: application/json
 ### DELETE Remove book
 DELETE http://localhost:8080/api/books/2
 
-###
